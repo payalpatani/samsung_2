@@ -1,0 +1,120 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/premium-photo/abstract-background-design-images-wallpaper-ai-generated_643360-254680.jpg'); /* Add your image path */
+    background-position: center;
+    text-align: center;
+    color: white; 
+  }
+  
+  .content {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 25px 50px;
+    border-radius: 10px;
+  }
+  
+  .name {
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+  
+  .typing-text {
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+ 
+  
+  @media (max-width: 768px) {
+    .name {
+      font-size: 50px; 
+    }
+  
+    .typing-text {
+      font-size: 28px; 
+    }
+  }
+
+  .button-container {
+    display: flex; 
+    gap: 10px; 
+  }
+  
+  .btn {
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    background: linear-gradient(135deg, #d48001, #044858); 
+    color: white; 
+    transition: background 0.5s ease, transform 0.3s ease;
+    position: relative; 
+    overflow: hidden; 
+    z-index: 10000;
+  }
+  
+  .btn::before {
+    content: ''; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: linear-gradient(135deg,  #035b7e, #d48001);
+    transition: all 0.5s ease; 
+    color:  black;
+    z-index: -1000;
+  }
+  
+  .btn:hover::before {
+    left: 0; 
+    right: 0; 
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .social-icons a {
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    margin: 0 10px; 
+    transition: background-color 0.3s; 
+  }
+  
+  .social-icons a:hover {
+    background-color: rgba(255, 152, 0, 0.2); 
+  }
+  
+  .social-icons a:nth-child(2):hover {
+    background-color: rgba(51, 51, 51, 0.2);
+  }
+  
+  .social-icons i {
+    font-size: 20px; 
+    color: #0077b5; 
+  }
+  
+  .social-icons a:nth-child(2) i {
+    color: #ffffff; 
+  }
+
+  
+
+  
+  

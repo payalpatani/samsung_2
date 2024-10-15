@@ -1,0 +1,58 @@
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    margin-left: 15px;
+    color: #f8f9fa !important;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important; /* Change color on hover */
+  }
+  
+  .navbar {
+    padding: 10px 20px;
+  }
+/* Header.css */
+
+.navbar {
+    transition: background-color 0.3s ease; /* Smooth transition for navbar background */
+    color: transparent;
+  }
+  
+  .navbar:hover {
+    background-color: rgba(0, 0, 0, 0.8); 
+  }
+  
+  .nav-link {
+    position: relative; /* Positioning for the underline effect */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+  }
+  
+  .nav-link::after {
+    content: ""; /* Create a pseudo-element for the underline */
+    position: absolute;
+    left: 0;
+    /* right: 0; */
+    bottom: -5px; /* Position it below the text */
+    height: 2px; /* Height of the underline */
+    width: 100%; /* Full width */
+    background-color: #ca9a08; /* Color of the underline */
+    transform: translateX( -100%);/* Start position off-screen */
+    transition: transform 0.3s ease; /* Smooth transition for underline */
+    /* display: none; */
+  }
+  
+  .nav-link:hover {
+    color: #fff; /* Change text color on hover */
+  }
+  
+  .nav-link:hover::after {
+    display: block;
+    transform: translateX(0); /* Move the underline into view */
+  }
+    
