@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "img": "https://img.myipadbox.com/sec/product_l/SYA002507901A.jpg",
+      "title": "Galaxy Fit3 (Bluetooth)",
+      "description": "Large AMOLED Display with 2.5D Curved Glass &  Aluminum Body Up  BackupComprehensive Health & Fitness Tracking powered by Samsung Health app.",
+      "price": 4749,
+      "Oldprice":8000,
+      "cart_id":"QUERW",
+      "button": "Add Now"
+    },
+    {
+      "id": "2",
+      "img": "https://www.artis.in/cdn/shop/products/1_c18d3f87-f3e4-4573-a1c7-ebdd19603802.jpg?v=1622458649",
+      "title": "Adapter",
+      "description": "No need to retrace where you last saw it. Register a new Galaxy . With its intuitive UX experience, you now have a simple method in your hand to locate the things you love.",
+      "price": 6749,
+      "Oldprice":7500,
+      "cart_id":"RETWQ",
+      "button": "Add Now"
+    },
+    {
+      "id": "3",
+      "img": "https://images.samsung.com/is/image/samsung/p6pim/in/ei-t5600bbegin/gallery/in-galaxy-smarttag2-ei-t5600-ei-t5600bbegin-538343295?$650_519_PNG$",
+      "title": "Galaxy SmartTag2",
+      "description": "No need to retrace where you last saw it. Register a new Galaxy . With its intuitive UX experience, you now have a simple method in your hand to locate the things you love.",
+      "price": 2249,
+      "Oldprice":5000,
+      "cart_id":"IIREW",
+      "button": "Add Now"
+    },
+    {
+      "id": "4",
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRWEXl0E9UBPk1dpNW7hgHfSE7ydwKB4eEpTT4BwmomjnUN24RGyUX4TygZW_u8lhVuA_HW3_sZ68zMfkJgmWRjLuSl37JCECS3BS1lO3Kclx022PdLFU1F3hMLGiGd7n1zOYC66w&usqp=CAc",
+      "title": "Galaxy Watch6 Bluetooth",
+      "description": "No need to retrace where you last saw it. Register a new Galaxy . With its intuitive UX experience, you now have a simple method in your hand to locate the things you love.",
+      "price": 2000,
+      "Oldprice":4000,
+      "cart_id":"QAERWW",
+      "button": "Add Now"
+    },
+    {
+      "id": "5",
+      "img": "https://www.samsungmobilepress.com/file/28F988DF8EC17D1CDABEB9B7CE2BB2F697EBE1F80AEC8EB937847E468400A3A6CFC296B205386F8978689CA5C06042A1F799866DA728FD30F3A56B19B95FF47F39D92102C3959B322F572A30B9B95BDEA2951109D7973043AB20AFE814637252ADA6260905C1276B01048FCDD3A24165E7511EDAAC5A7E4101A9F9DE750DA41D93089B0DB241BBAAEE791CECA80129F7",
+      "title": "Galaxy Buds2 Pro",
+      "description": "A big, circular view on your wrist Develop healthy sleeping habits Get detailed insights on your body and wellnessGet stock alert Galaxy Buds2 Pro Galaxy Buds2 Pro",
+      "price": 2509.05,
+      "Oldprice":4000,
+      "cart_id":"SDFGHJ",
+      "button": "Add Now"
+    },
+    {
+      "id": "6",
+      "img": "https://images.ctfassets.net/evnrpfa1vdk4/1AwWrvy88smuRU2HEjE9IF/b09b62c372fecd4057f97d1a254d03e1/CAT_E3_TitaniumBlack__1_.png",
+      "title": "Galaxy S24 Ultra",
+      "description": "A big, circular view on your wrist Develop healthy sleeping habits Get detailed insights on your body and wellnessGet stock alert Galaxy Buds2 Pro Galaxy Buds2 Pro",
+      "price": 35000,
+      "Oldprice":50000,
+      "cart_id":"EDCVB",
+      "button": "Add Now"
+    },
+    {
+      "id": "7",
+      "img": "https://m.media-amazon.com/images/I/91WFwC22iwL.jpg",
+      "title": "Samsung Led Tv ",
+      "description": "A big, circular view on your wrist Develop healthy sleeping habits Get detailed insights on your body and wellnessGet stock alert Galaxy Buds2 Pro Galaxy Buds2 Pro",
+      "price": 47599,
+      "Oldprice":65000,
+      "cart_id":"KJHGF",
+      "button": "Add Now"
+    },
+    {
+      "id": "8",
+      "img": "https://w7.pngwing.com/pngs/208/221/png-transparent-internet-refrigerator-freezers-samsung-home-appliance-appliances-kitchen-electronics-kitchen-appliance-thumbnail.png",
+      "title": "Samsung Refrigerator",
+      "description": "A big, circular view on your wrist Develop healthy sleeping habits Get detailed insights on your body and wellnessGet stock alert Galaxy Buds2 Pro Galaxy Buds2 Pro",
+      "price": 50500,
+      "Oldprice":70000,
+      "cart_id":"TYJHGF",
+      "button": "Add Now"
+    },
+    {
+      "id": "9",
+      "img": "https://images.samsung.com/is/image/samsung/assets/uk/laptop-buying-guide/galaxy-book-3-range-explained/Book3Pro-series-M.png?$720_N_PNG$",
+      "title": "Samsung Laptop",
+      "description": "A big, circular view on your wrist Develop healthy sleeping habits Get detailed insights on your body and wellnessGet stock alert Galaxy Buds2 Pro Galaxy Buds2 Pro",
+      "price": 60000,
+      "Oldprice":70000,
+      "cart_id":"WERTYHG",
+      "button": "Add Now"
+    },
+    {
+      "id": "10",
+      "img": "https://img.us.news.samsung.com/us/wp-content/uploads/2020/08/05100258/01_Unpacked_2020_press_release_main_image_1000x554.jpg",
+      "title": "Five New Power Devices",
+      "description": "A big, circular view on your wrist Develop healthy sleeping habits Get detailed insights on your body and wellnessGet stock alert Galaxy Buds2 Pro Galaxy Buds2 Pro",
+      "price": 55000,
+      "Oldprice":70000,
+      "cart_id":"AFDSD",
+      "button": "Add Now"
+    }
+  ]
+}
