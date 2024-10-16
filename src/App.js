@@ -1,36 +1,51 @@
-import logo from './logo.svg';
+// Priject 1
+
 import './App.css';
-import Homee from './componet/Homee';
+import './header.css';
+import './Homecss.css';
+import './componet/Login.css';
 import Header from './componet/Header';
-import './Header.css';
-import './Home.css';
-import './about.css';
-import './Project.css';
-import './Skills.css';
-import './contact.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';  // Correct import
-import About from './componet/About';
-import Projects from './componet/Projects';
-import Proficiencies from './componet/Proficiencies';
-import Contact from './componet/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import Homepage from './componet/Homepage';
+import Footer from './componet/Footer';
+import Sam_details from './componet/Sam_details';
+
+import { Route, Routes } from 'react-router-dom';
+
+import AddtoCart from './componet/AddtoCart';
+import BuyNow from './componet/BuyNow';
+import Thank from './componet/Thank';
+import Login from './componet/Login';
+
 
 function App() {
   return (
     <div className="App">
-  
-        <Header />  
-        
-       
-        <Routes>
-          <Route path="/" element={<Homee />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/proficiencies" element={<Proficiencies />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-    
+
+      <Header />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/Addtocart" element={<AddtoCart/>} />
+        <Route path="/Buynow" element={<BuyNow/>} />
+        <Route path="/Thankyou" element={<Thank/>} />
+        <Route path="/Login" element={<Login/>} />
+        <Route path="Samsungdetails/:id" element={<Sam_details />} />
+      </Routes>
+      <Footer />
+
+
+    </div>
   );
 }
 
 export default App;
+
+
+
+
+
+

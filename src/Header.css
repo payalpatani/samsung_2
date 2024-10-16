@@ -1,58 +1,64 @@
-.navbar-brand {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff !important;
-  }
-  
-  .nav-link {
-    font-size: 18px;
-    margin-left: 15px;
-    color: #f8f9fa !important;
-  }
-  
-  .nav-link:hover {
-    color: #ffc107 !important; /* Change color on hover */
-  }
-  
-  .navbar {
-    padding: 10px 20px;
-  }
-/* Header.css */
+.navbar-nav .dropdown-menu {
+  display: none;
+  z-index: 10000;
+}
 
-.navbar {
-    transition: background-color 0.3s ease; /* Smooth transition for navbar background */
-    color: transparent;
-  }
-  
-  .navbar:hover {
-    background-color: rgba(0, 0, 0, 0.8); 
-  }
-  
-  .nav-link {
-    position: relative; /* Positioning for the underline effect */
-    transition: color 0.3s ease; /* Smooth transition for text color */
-  }
-  
-  .nav-link::after {
-    content: ""; /* Create a pseudo-element for the underline */
-    position: absolute;
-    left: 0;
-    /* right: 0; */
-    bottom: -5px; /* Position it below the text */
-    height: 2px; /* Height of the underline */
-    width: 100%; /* Full width */
-    background-color: #ca9a08; /* Color of the underline */
-    transform: translateX( -100%);/* Start position off-screen */
-    transition: transform 0.3s ease; /* Smooth transition for underline */
-    /* display: none; */
-  }
-  
-  .nav-link:hover {
-    color: #fff; /* Change text color on hover */
-  }
-  
-  .nav-link:hover::after {
-    display: block;
-    transform: translateX(0); /* Move the underline into view */
-  }
-    
+.navbar-nav .nav-item:hover .dropdown-menu {
+  display: block;
+  margin-top: 20px;
+
+}
+
+.nav-link:hover {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+
+
+.nav-link {
+  font-family: Arial, sans-serif;
+  padding: 4px 48px 0px 24px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.mega-menu {
+  width: 600px;
+}
+
+.mega-menu h6 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.mega-menu .dropdown-item {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.fas {
+  font-size: 21px;
+  font-weight: 100;
+}
+.navbar-brand a{
+  text-decoration: none;
+}
+
+.btn-outline-primary {
+  border-color: #007bff; 
+  color: #007bff; 
+}
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white; 
+}
+
+
+.text-primary {
+  color: #007bff; 
+}
+
+.fs-3 {
+  font-size: 1.75rem; 
+}
